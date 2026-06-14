@@ -1,6 +1,10 @@
 # 📚 BookGen — Automated Book Generation System
 
-A modular, **human-in-the-loop** pipeline that takes a title + notes and produces a fully compiled `.docx` manuscript. Editors review and approve at every gate (Outline → each Chapter → Final compile).
+**BookGen is an AI-powered book writing system that turns ideas into polished manuscripts.** It orchestrates a multi-step human-in-the-loop pipeline: outline → chapter-by-chapter generation → final compilation. Editors review and approve at every gate, with continuity built in—each chapter knows what came before it. Powered by Groq's fast LLMs, LangGraph for workflow orchestration, and Supabase for state management.
+
+## 🎬 Demo
+
+Coming soon! [Link to demo video will go here at step 5]
 
 ## Stack
 
@@ -12,7 +16,11 @@ A modular, **human-in-the-loop** pipeline that takes a title + notes and produce
 | Dashboard | **Streamlit** |
 | Notifications | **SMTP email** |
 | Research (optional) | **DuckDuckGo** via `ddgs` (no API key) |
-| Output | **python-docx** (`.docx`) |
+| Output | **python-docx** (`.docx` and `.pdf`) |
+
+## About
+
+**Topics:** `langgraph` · `agentic-ai` · `supabase` · `streamlit` · `groq`
 
 ## Architecture
 
